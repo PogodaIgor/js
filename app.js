@@ -33,3 +33,10 @@ function Wroc_na_czarny() {
 function Zmien_na_czarny() {
   document.getElementById("imie").style.color = "black";
 }
+let i = 0;
+
+function BgColor() {
+  const colors = ["#ee5253", "#00bce4", "#222f3e"];
+  i = i < colors.length - 1 ? ++i : 0;
+  document.getElementById("body").style.backgroundColor = colors[i];
+}

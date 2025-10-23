@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="body">
     <p id="imie">Igor Pogoda</p>
     <button
       id="czerwony"
@@ -28,10 +28,10 @@
       id="czarny"
       onclick="Zmien_na_czarny()"
       onmouseover="Tekst_na_czarny()"
-      onmouseleave="Wroc_na_czarny()"
     >
       Cofnij
     </button>
+    <button id="tlo" onclick="BgColor()">Tło</button>
     <script src="app.js"></script>
   </body>
 </html>
